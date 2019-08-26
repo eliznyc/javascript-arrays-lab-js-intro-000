@@ -5,3 +5,20 @@ function destructivelyAppendKitten(name) {
   kittens.push(name);
   return kittens;
 }
+
+var kittens = ['Milo', 'Otis', 'Garfield'] //define your array here
+
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name);
+  return kittens;
+}
+
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kitttens;
+}
+
+function destructivelyRemoveFirstKitten() {
+  kittens.shift();
+  return kittens;
+}
